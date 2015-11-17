@@ -2,17 +2,17 @@ package ast.exp;
 
 public class True extends T {
 
-	public True() {
+    public True() {
 
-	}
+    }
 
-	public True(int lineNum) {
-		this.lineNum = lineNum;
-	}
+    public True(int lineNum) {
+        this.lineNum = lineNum;
+    }
 
-	@Override
-	public void accept(ast.Visitor v) {
-		v.visit(this);
-		return;
-	}
+    @Override
+    public void accept(ast.Visitor v) {
+        v.visit(this);
+        return;
+    }
 }

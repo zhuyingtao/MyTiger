@@ -2,17 +2,17 @@ package ast.exp;
 
 public class This extends T {
 
-	public This() {
+    public This() {
 
-	}
+    }
 
-	public This(int lineNum) {
-		this.lineNum = lineNum;
-	}
+    public This(int lineNum) {
+        this.lineNum = lineNum;
+    }
 
-	@Override
-	public void accept(ast.Visitor v) {
-		v.visit(this);
-		return;
-	}
+    @Override
+    public void accept(ast.Visitor v) {
+        v.visit(this);
+        return;
+    }
 }

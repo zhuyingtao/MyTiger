@@ -7,14 +7,14 @@ import codegen.bytecode.Visitor;
 //the name of the class of object you want to create. 
 //<class> is resolved into a Java class
 public class New extends T {
-	public String c;
+    public String c;
 
-	public New(String c) {
-		this.c = c;
-	}
+    public New(String c) {
+        this.c = c;
+    }
 
-	@Override
-	public void accept(Visitor v) {
-		v.visit(this);
-	}
+    @Override
+    public void accept(Visitor v) {
+        v.visit(this);
+    }
 }

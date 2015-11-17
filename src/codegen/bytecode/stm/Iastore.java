@@ -9,10 +9,10 @@ import codegen.bytecode.Visitor;
 //and value is stored in the array at the given index.
 public class Iastore extends T {
 
-	@Override
-	public void accept(Visitor v) {
-		// TODO Auto-generated method stub
-		v.visit(this);
-	}
+    @Override
+    public void accept(Visitor v) {
+        // TODO Auto-generated method stub
+        v.visit(this);
+    }
 
 }

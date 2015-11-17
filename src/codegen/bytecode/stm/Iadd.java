@@ -4,13 +4,13 @@ import codegen.bytecode.Visitor;
 
 public class Iadd extends T {
 
-	public Iadd() {
-	}
+    public Iadd() {
+    }
 
-	@Override
-	public void accept(Visitor v) {
-		// TODO Auto-generated method stub
-		v.visit(this);
-	}
+    @Override
+    public void accept(Visitor v) {
+        // TODO Auto-generated method stub
+        v.visit(this);
+    }
 
 }
